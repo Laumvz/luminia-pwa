@@ -65,3 +65,16 @@
   </iframe>
 </body>
 </html>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register(
+        "/luminia-pwa/service-worker.js"
+      ).catch((error) => {
+        console.error("Error al activar Luminia:", error);
+      });
+    });
+  }
+</script>
+</body>
+</html>
