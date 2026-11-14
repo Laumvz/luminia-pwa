@@ -1,0 +1,14 @@
+
+{
+  "id": "/luminia-pwa/",
+  "name": "Luminia - Agenda 2027",
+  "short_name": "Luminia",
+  "description": "Tu espacio personal para organizar tus días.",
+  "lang": "es-MX",
+  "start_url": "/luminia-pwa/",
+  "scope": "/luminia-pwa/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eee7fa",
+  "theme_color": "#6d4ca5"
+}
